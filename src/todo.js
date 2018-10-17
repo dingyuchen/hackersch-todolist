@@ -45,9 +45,9 @@ class Main extends Component {
                 Todo: 
                 <ul>
                     {this.state.todos.map((task)=> (<li>
-                        {task.id}
+                        {/* {task.id} */}
                         {task.value}
-                        {task.completion.toString()}
+                        {/* {task.completion.toString()} */}
                     </li>))}
                 </ul>
             </div>
